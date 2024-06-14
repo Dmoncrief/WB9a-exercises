@@ -25,3 +25,14 @@ let emp = new Employee()
    console.log(`Employee ${employee1.fullName} created`);
    console.log(`Job title is ${employee1.jobTitle}`);
    console.log(`Pay rate is $${employee1.payRate}`);
+
+   console.log("-------------------------")
+
+
+   employee1.promote = "Sr Graphic Artist";
+   employee1.payRate = 65;
+
+
+   console.log(`Employee ${employee1.fullName} created`);
+   console.log(`Job title is ${employee1.jobTitle}`);
+   console.log(`Pay rate is $${employee1.payRate}`);
